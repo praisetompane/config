@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="app_etl.erd">
+	<entities>
+		<data-source id="postgres-jdbc-1962a2ea7fc-7e3d532363714215">
+			<entity id="1" name="etl" fq-name="etl.etl" order="0" x="439" y="70">
+				<path name="etl"/>
+				<path name="app_etl"/>
+			</entity>
+			<entity id="2" name="annualconfirmedcases" fq-name="malaria.annualconfirmedcases" order="1" color-bg="204,192,184" x="437" y="284">
+				<path name="malaria"/>
+				<path name="app_etl"/>
+			</entity>
+			<entity id="3" name="whoghomalariaannualconfirmedcases" fq-name="sourcedata.whoghomalariaannualconfirmedcases" order="2" color-bg="228,255,181" x="40" y="284">
+				<path name="sourcedata"/>
+				<path name="app_etl"/>
+			</entity>
+			<entity id="4" name="alembic_version" fq-name="public.alembic_version" order="3" color-bg="255,255,255" x="764" y="69">
+				<path name="public"/>
+				<path name="app_etl"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="fk_etl" fq-name="malaria.annualconfirmedcases.fk_etl" type="fk" pk-ref="1" fk-ref="2"/>
+	</relations>
+</diagram>

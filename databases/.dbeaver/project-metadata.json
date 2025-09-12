@@ -1,0 +1,45 @@
+{
+    "resources": {
+        "Scripts/app_etl/sql/debug.sql": {
+            "default-schema": "public",
+            "default-datasource": "postgres-jdbc-1967db9f263-656d31ed738192bd",
+            "default-catalog": "app_flask_archetype"
+        },
+        "mysql/4_experiments/1_core_language/store/0_structure/V1_Artist.sql": {
+            "default-datasource": "mysql8-196a7046fd3-74e1dfed6901f9ec",
+            "default-catalog": "store"
+        },
+        "mysql/4_experiments/1_core_language/store/0_structure/V2_Album.sql": {
+            "default-datasource": "mysql8-196a7046fd3-74e1dfed6901f9ec",
+            "default-catalog": "store"
+        },
+        "mysql/4_experiments/1_core_language/store/0_structure/V3_Genre.sql": {
+            "default-datasource": "mysql8-196a7046fd3-74e1dfed6901f9ec",
+            "default-catalog": "store"
+        },
+        "mysql/4_experiments/1_core_language/store/0_structure/V4_Track.sql": {
+            "default-datasource": "mysql8-196a7046fd3-74e1dfed6901f9ec",
+            "default-catalog": "store"
+        },
+        "mysql/4_experiments/1_core_language/store/0_structure/V5_Author.sql": {
+            "default-datasource": "mysql8-196a7046fd3-74e1dfed6901f9ec",
+            "default-catalog": "store"
+        },
+        "mysql/4_experiments/1_core_language/store/0_structure/V6_Book.sql": {
+            "default-datasource": "mysql8-196a7046fd3-74e1dfed6901f9ec",
+            "default-catalog": "store"
+        },
+        "mysql/4_experiments/1_core_language/store/0_structure/V7_Book_Authors.sql": {
+            "default-datasource": "mysql8-196a7046fd3-74e1dfed6901f9ec",
+            "default-catalog": "store"
+        },
+        "mysql/4_experiments/1_core_language/store/1_data/V5_Author.sql": {
+            "default-datasource": "mysql8-196a7046fd3-74e1dfed6901f9ec",
+            "default-catalog": "store"
+        },
+        "mysql/4_experiments/1_core_language/store/1_data/V7_Book_Authors.sql": {
+            "default-datasource": "mysql8-196a7046fd3-74e1dfed6901f9ec",
+            "default-catalog": "store"
+        }
+    }
+}

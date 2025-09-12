@@ -1,0 +1,14 @@
+{
+	"name": "mysql",
+	"build": {
+		"dockerfile": "../Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [],
+			"settings": {}
+		}
+	},
+	"workspaceMount": "source=${localWorkspaceFolder},target=/mysql,type=bind,consistency=delegated",
+	"workspaceFolder": "/mysql"
+}

@@ -1,0 +1,4 @@
+DROP TABLE Album;
+DROP TABLE Artist;
+DROP TABLE Track;
+DROP TABLE Genre;

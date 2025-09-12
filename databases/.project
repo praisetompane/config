@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>databases</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.jkiss.dbeaver.DBeaverNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Scripts/app_etl/sql</name>
+			<type>2</type>
+			<location>/Users/praisetompane/Library/CloudStorage/OneDrive-Personal/Documents/languages/python/applications/app_etl/utilities/sql</location>
+		</link>
+	</linkedResources>
+</projectDescription>

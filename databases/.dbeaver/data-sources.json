@@ -1,0 +1,76 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-1962a422b38-2bd9ede0da3d53e4": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "app_who_etl",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "true",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-1967db9f263-656d31ed738192bd": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "app_flask_archetype",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5434",
+				"url": "jdbc:postgresql://localhost:5434/",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
+			}
+		},
+		"mysql8-196a7046fd3-74e1dfed6901f9ec": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "store",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "8889",
+				"database": "store",
+				"url": "jdbc:mysql://localhost:8889/store",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
