@@ -55,6 +55,25 @@
 				"closeIdleConnection": true,
 				"auth-model": "native"
 			}
+		},
+		"microsoft-199a5438caf-55a53328f38c2263": {
+			"provider": "sqlserver",
+			"driver": "microsoft",
+			"name": "mssql_server_local",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1433",
+				"url": "jdbc:sqlserver://;serverName\u003dlocalhost;",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-schemas@": "false",
+					"sslTrustServerCertificate": "false"
+				},
+				"auth-model": "sqlserver_database"
+			}
 		}
 	},
 	"connection-types": {
